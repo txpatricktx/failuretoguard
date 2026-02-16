@@ -20,7 +20,7 @@ const Footer = () => {
           <p className="text-xs text-muted-foreground mt-4">
             Based on the official{" "}
             <a
-              href="https://edgegamers.com"
+              href="https://www.edgegamers.com/threads/321474/#post-3017196"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline"
