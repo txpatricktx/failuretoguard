@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
 import { ruleSections } from "@/data/rules";
 import { Input } from "@/components/ui/input";
@@ -30,6 +31,17 @@ const RulesPage = () => {
             EdgeGamers Jailbreak Rules v1.0.0 — Now with added shame
           </p>
         </div>
+
+        {/* Formal Rules Link */}
+        <Link
+          to="/formal-rules"
+          className="block pixel-border bg-primary/10 border-l-4 border-primary p-4 mb-8 hover:bg-primary/20 transition-colors"
+        >
+          <p className="font-pixel text-[0.5rem] text-primary mb-1">📄 LOOKING FOR THE FULL RULESET?</p>
+          <p className="text-sm text-muted-foreground">
+            View the complete official EdgeGamers Jailbreak Rules v1.0.0 — the formal document, word for word →
+          </p>
+        </Link>
 
         {/* Search */}
         <div className="mb-8">

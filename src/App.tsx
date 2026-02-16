@@ -11,6 +11,7 @@ import IncidentsPage from "./pages/IncidentsPage";
 import QuizPage from "./pages/QuizPage";
 import SurvivalPage from "./pages/SurvivalPage";
 import GlossaryPage from "./pages/GlossaryPage";
+import FormalRulesPage from "./pages/FormalRulesPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/quiz" element={<QuizPage />} />
           <Route path="/survival" element={<SurvivalPage />} />
           <Route path="/glossary" element={<GlossaryPage />} />
+          <Route path="/formal-rules" element={<FormalRulesPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

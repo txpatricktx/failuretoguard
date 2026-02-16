@@ -112,6 +112,24 @@ const Index = () => {
             </Link>
           ))}
         </div>
+
+        {/* Formal Rules Link */}
+        <div className="mt-6">
+          <Link
+            to="/formal-rules"
+            className="pixel-border bg-card p-4 hover:bg-secondary transition-colors flex items-center gap-3 group"
+          >
+            <span className="text-2xl">📄</span>
+            <div>
+              <h3 className="font-pixel text-[0.55rem] text-primary group-hover:text-foreground transition-colors">
+                FORMAL RULESET
+              </h3>
+              <p className="text-sm text-muted-foreground">
+                View the complete official eGO Jailbreak Rules v1.0.0 — word for word
+              </p>
+            </div>
+          </Link>
+        </div>
       </section>
 
       {/* Fake Stats */}
