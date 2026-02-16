@@ -56,32 +56,32 @@ const RulesPage = () => {
               </AccordionTrigger>
               <AccordionContent className="px-4 pb-4">
                 {section.description && (
-                  <p className="text-sm text-muted-foreground mb-4 italic">{section.description}</p>
+                  <p className="text-base text-muted-foreground mb-4 italic">{section.description}</p>
                 )}
                 <div className="space-y-4">
                   {section.rules.map((rule) => (
                     <div key={rule.id} className="bg-secondary p-4 pixel-border">
                       <div className="flex items-start gap-2 mb-2">
-                        <span className="font-pixel text-[0.45rem] text-primary bg-primary/10 px-2 py-1 shrink-0">
+                        <span className="font-pixel text-[0.55rem] text-primary bg-primary/10 px-2 py-1 shrink-0">
                           {rule.id}
                         </span>
-                        <h3 className="font-pixel text-[0.5rem] text-foreground leading-relaxed">
+                        <h3 className="font-pixel text-[0.6rem] text-foreground leading-relaxed">
                           {rule.title}
                         </h3>
                       </div>
                       <ul className="space-y-1 mb-3">
                         {rule.content.map((line, i) => (
-                          <li key={i} className="text-sm text-muted-foreground pl-4 relative before:content-['▸'] before:absolute before:left-0 before:text-primary">
+                          <li key={i} className="text-base text-muted-foreground pl-4 relative before:content-['▸'] before:absolute before:left-0 before:text-primary">
                             {line}
                           </li>
                         ))}
                       </ul>
                       {rule.guardFail && (
                         <div className="bg-accent/10 border-l-4 border-accent p-3 mt-2">
-                          <p className="font-pixel text-[0.4rem] text-accent mb-1">
+                          <p className="font-pixel text-[0.5rem] text-accent mb-1">
                             ⚠️ GUARD FAIL EXAMPLE
                           </p>
-                          <p className="text-sm text-foreground italic">
+                          <p className="text-base text-foreground italic">
                             {rule.guardFail}
                           </p>
                         </div>
