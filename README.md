@@ -1,15 +1,17 @@
-# 🚨 Failure to Guard
+# 🚨 Failure to Guard Academy
 
-A satirical website documenting the most spectacular guard failures in jailbreak games. Featuring incident reports, a hall of shame, a competency quiz, survival guides, and more — all presented as an official (and deeply incompetent) prison operation.
+A lighthearted, community-driven companion site for [EdgeGamers](https://edgegamers.com) Jailbreak — celebrating the funny side of guard life through satirical incident reports, a hall of shame, quizzes, and more.
+
+> **Disclaimer:** This project is a fan-made humor site and is not officially affiliated with or endorsed by EdgeGamers (eGO). All content is meant in good fun and follows eGO's community standards. No real players are named or targeted — all characters and incidents are fictional or heavily fictionalized for comedy.
 
 ## 🏗️ What's Inside
 
-- **📜 The Inmate Handbook** — All the rules guards will inevitably break
-- **🏆 Hall of Shame** — The worst guards in history, ranked and roasted
-- **📋 Incident Reports** — Official documentation of guard failures
-- **🧠 Competency Quiz** — Are you fit to guard? (Spoiler: No)
-- **💀 Survival Guide** — How to not get slayed
-- **📖 Prison Slang Glossary** — For dummies (that's you)
+- **📜 The Inmate Handbook** — A humorous take on the Jailbreak rules we all know (and sometimes forget)
+- **🏆 Hall of Shame** — Fictional awards for the most hilariously bad guard moments
+- **📋 Incident Reports** — Made-up case files documenting guard fails we've all witnessed
+- **🧠 Competency Quiz** — Test your Jailbreak knowledge in a fun way
+- **💀 Survival Guide** — Tips and tricks wrapped in comedy
+- **📖 Prison Slang Glossary** — Community lingo explained
 
 ## 🚀 Getting Started
 
@@ -40,19 +42,17 @@ The site will be available at `http://localhost:8080`.
 npm run build
 ```
 
-Production files will be output to the `dist/` directory.
-
 ## 🛠️ Tech Stack
 
 - [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
-- [Vite](https://vitejs.dev/) for blazing fast builds
-- [Tailwind CSS](https://tailwindcss.com/) for styling
-- [shadcn/ui](https://ui.shadcn.com/) component library
-- [React Router](https://reactrouter.com/) for navigation
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [React Router](https://reactrouter.com/)
 
 ## 🤝 Contributing
 
-Contributions are welcome! Whether it's new incident reports, hall of shame entries, bug fixes, or feature ideas — we'd love your help.
+Contributions are welcome! Help us make the Academy even funnier.
 
 ### How to Contribute
 
@@ -63,7 +63,7 @@ Contributions are welcome! Whether it's new incident reports, hall of shame entr
    ```
 3. **Make your changes** and commit with a clear message:
    ```bash
-   git commit -m "Add: new incident report for camping guard"
+   git commit -m "Add: new incident report about armory camping"
    ```
 4. **Push** to your fork:
    ```bash
@@ -73,16 +73,18 @@ Contributions are welcome! Whether it's new incident reports, hall of shame entr
 
 ### Contribution Ideas
 
-- 📋 New incident reports or hall of shame entries
-- 🎨 UI/UX improvements
+- 📋 New fictional incident reports or hall of shame entries
 - 🧠 New quiz questions
 - 💀 Survival guide tips
+- 🎨 UI/UX improvements
 - 🐛 Bug fixes
-- 📱 Mobile responsiveness improvements
 
-### Guidelines
+### Content Guidelines
 
-- Keep the satirical tone consistent — this is a humor project
+- **Keep it fun and respectful** — this is comedy, not a callout post
+- **No targeting real players** — all characters should be fictional
+- **Follow eGO's community standards** — nothing toxic, discriminatory, or against their Code of Conduct
+- **Stay on theme** — Jailbreak guard humor, not general trolling
 - Test your changes locally before submitting a PR
 - Keep PRs focused — one feature or fix per PR
 
@@ -92,4 +94,4 @@ This project is open source. Feel free to use, modify, and distribute.
 
 ---
 
-*Remember: Every guard failure is a learning opportunity. Mostly for the prisoners.* 🏃‍♂️
+*The Failure to Guard Academy — where every round is a learning experience (for the prisoners).* 🏃‍♂️
