@@ -55,6 +55,9 @@ const RulesPage = () => {
                 </span>
               </AccordionTrigger>
               <AccordionContent className="px-4 pb-4">
+                {section.description && (
+                  <p className="text-sm text-muted-foreground mb-4 italic">{section.description}</p>
+                )}
                 <div className="space-y-4">
                   {section.rules.map((rule) => (
                     <div key={rule.id} className="bg-secondary p-4 pixel-border">
