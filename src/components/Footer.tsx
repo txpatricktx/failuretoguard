@@ -29,6 +29,18 @@ const Footer = () => {
             </a>{" "}
             Jailbreak Rules v1.0.0 • This is a parody/comedy site
           </p>
+          <p className="text-xs text-muted-foreground mt-2">
+            This project is{" "}
+            <a
+              href="https://github.com/txpatricktx/failuretoguard"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline"
+            >
+              open source
+            </a>{" "}
+            — contributions welcome!
+          </p>
         </div>
 
         <div className="text-center text-muted-foreground text-sm mt-4 tracking-[0.3em] select-none">
